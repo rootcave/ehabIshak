@@ -1,0 +1,324 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import url(https://fonts.googleapis.com/css?family=Play);
+
+body {
+    font-family: "Open Sans";
+    font-weight: 400;
+    background: #f1f1f1;
+}
+
+.header {
+    background: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0 0 10px;
+}
+
+.navbar-default {
+    border: 0;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0);
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+    font-family: "play";
+    font-size: 25px;
+    transition: all 0.5s
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-weight: 300;
+    transition: all 0.5s
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #B5B5B4;
+    background-color: transparent;
+}
+
+.slider {
+    padding: 20px;
+    box-shadow: 0 0 35px #000;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.two {
+    padding: 60px 0;
+    background: #222;
+    box-shadow: 0 0 50px;
+}
+
+.two .col-xs-6 {
+    padding: 2px;
+}
+
+.two h1 {
+    font-family: "play";
+    color: #fff
+}
+
+.two h1:after {
+    content: "";
+    display: block;
+    width: 115px;
+    height: 1px;
+    background: #4C4C4C;
+    margin: auto;
+    margin: 5px auto;
+}
+
+
+.two p {
+    color: #888;
+}
+
+
+
+.two #owl-demo .item{
+  margin: 3px;
+}
+
+.social ul {
+    list-style: none;
+    text-align: center
+}
+
+.social li {
+    display: inline-block;
+    padding: 5px;
+    text-align: left;
+}
+
+.social li a {
+    text-align: left;
+}
+
+.social .fa {
+    /* background: #353535; */
+    padding: 3px;
+    text-align: center;
+    color: #fdfdfd;
+    font-size: 19px;
+    border-right: 1px solid #B1B1B1;
+    padding: 0 15px 0 0;
+}
+
+.social h3 {
+    margin: 0;
+}
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.box {
+    position: relative;
+    transition: all 0.5s;
+    overflow: hidden
+}
+
+.desc {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.63);
+    opacity: 0;
+    transition: all 0.5s
+}
+.desc:hover {opacity: 1}
+.desc h5 {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.27);
+    margin: 0;
+}
+
+.desc .fa {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    color: #fff
+}
+.resident {
+    margin-bottom: 25px;
+    overflow: hidden
+}
+
+.resident h3 {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0px auto;
+    width: 50%;
+    cursor: pointer
+}
+
+.footer {
+    font-family: "play";
+}
+
+.projects {
+    overflow: hidden;
+    padding: 50px;
+    display: none
+}
+
+.filter-portfolio ul {
+    color: #fff;
+    list-style: none;
+}
+
+.filter-portfolio ul li {
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer
+}
+.villas {display: none}
+.mix {
+    display: none;
+}
+.portfolio {
+    display: none
+}
+
+
+
+/*----*/
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.page-loader__container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 666;
+  background-color: #222;
+  opacity: 1;
+  -webkit-transition: opacity 0.8s;
+  transition: opacity 0.8s;
+}
+
+.page-loader {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -40px 0 0 -40px;
+  border: 4px solid #Fff;
+  -webkit-animation: loader 4s infinite ease;
+          animation: loader 4s infinite ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.page-loader__inner {
+  vertical-align: top;
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  -webkit-animation: loader-inner 4s infinite ease;
+          animation: loader-inner 4s infinite ease;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  16% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  32% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  48% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  16% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  32% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  48% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  16% {
+    height: 100%;
+  }
+  64% {
+    height: 100%;
+  }
+  80% {
+    height: 0%;
+  }
+}
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  16% {
+    height: 100%;
+  }
+  64% {
+    height: 100%;
+  }
+  80% {
+    height: 0%;
+  }
+}
+
+
+
+
+
+
+
+
+
