@@ -4,14 +4,14 @@
 body {
     font-family: "Open Sans";
     font-weight: 400;
-    background: #f1f1f1;
+    background: #fff;
 }
 
 .header {
-    background: url("../images/bg.jpg");
+    /* background: url("../images/bg.jpg"); */
     background-attachment: fixed;
     background-size: cover;
-    padding: 0 0 10px;
+    /* padding: 0 0 10px; */
 }
 
 .navbar-default {
@@ -29,9 +29,10 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #FFF;
+    color: #333;
     font-weight: 300;
-    transition: all 0.5s
+    transition: all 0.5s;
+    font-size: 16px;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -39,15 +40,22 @@ body {
     background-color: transparent;
 }
 
+/*
 .slider {
     padding: 20px;
     box-shadow: 0 0 35px #000;
     background: rgba(255, 255, 255, 0.5);
 }
+*/
+
+.navbar-brand>img {
+    display: block;
+    max-width: 130px;
+}
 
 .two {
     padding: 60px 0;
-    background: #222;
+    background: #FFF;
     box-shadow: 0 0 50px;
 }
 
@@ -57,7 +65,11 @@ body {
 
 .two h1 {
     font-family: "play";
-    color: #fff
+    color: #333333;
+}
+
+.slideSection  .row {
+    margin-top: 35px
 }
 
 .two h1:after {
@@ -100,7 +112,7 @@ body {
     /* background: #353535; */
     padding: 3px;
     text-align: center;
-    color: #fdfdfd;
+    color: #212121;
     font-size: 19px;
     border-right: 1px solid #B1B1B1;
     padding: 0 15px 0 0;
@@ -122,6 +134,10 @@ body {
     overflow: hidden
 }
 
+.box a {
+    color: #fff;
+    font-size: 17px;
+}
 .desc {
     position: absolute;
     top: 0;
@@ -131,13 +147,13 @@ body {
     color: #fff;
     height: 100%;
     background: rgba(17, 17, 17, 0.63);
-    opacity: 0;
+    opacity: 1;
     transition: all 0.5s
 }
-.desc:hover {opacity: 1}
+
 .desc h5 {
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.27);
+    padding: 50% 0;
+    /* background: rgba(255, 255, 255, 0.27); */
     margin: 0;
 }
 
@@ -174,7 +190,7 @@ body {
 }
 
 .filter-portfolio ul {
-    color: #fff;
+    color: #333;
     list-style: none;
 }
 
@@ -191,6 +207,9 @@ body {
     display: none
 }
 
+.red-btn {
+    background: #810303
+}
 
 
 /*----*/
@@ -351,3 +370,6 @@ form.contact button {
     font-size: large;
 }
 
+.red-btn {
+    background: #810303 !important
+}

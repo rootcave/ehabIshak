@@ -16,13 +16,17 @@ $(document).ready(function () {
 
     //projects
     $("#projects, #buildings").click(function () {
+        $("#spaces, #villas").removeClass("red-btn");
+        $(this).addClass("red-btn");
         $(".spaces, .villas").fadeOut("fast");
-        $(".projects, .buildings").fadeToggle("slow");
+        $(".projects, .buildings").fadeIn("slow");
     });
 
     $("#spaces, #villas").click(function () {
+        $("#projects, #buildings").removeClass("red-btn");
+        $(this).addClass("red-btn");
         $(".projects, .buildings").fadeOut("fast");
-        $(".spaces, .villas").fadeToggle("slow");
+        $(".spaces, .villas").fadeIn("slow");
     });
 
     /* loading page */
