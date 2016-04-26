@@ -136,7 +136,7 @@ body {
 
 .box a {
     color: #fff;
-    font-size: 17px;
+    font-size: 30px;
 }
 .desc {
     position: absolute;
@@ -152,7 +152,7 @@ body {
 }
 
 .desc h5 {
-    padding: 85% 0;
+    padding: 66% 0;
     /* background: rgba(255, 255, 255, 0.27); */
     margin: 0;
 }
