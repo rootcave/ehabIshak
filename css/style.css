@@ -112,8 +112,8 @@ body {
     /* background: #353535; */
     padding: 3px;
     text-align: center;
-    color: #212121;
-    font-size: 19px;
+    /*color: #212121;*/
+    /*font-size: 19px;*/
     border-right: 1px solid #B1B1B1;
     padding: 0 15px 0 0;
 }
@@ -372,4 +372,25 @@ form.contact button {
 
 .red-btn {
     background: #810303 !important
+}
+
+
+/*********************
+Social Media Icon
+*****************/
+span.fa-facebook-square{
+    font-size: 32px;
+    color: red;
+}
+span.fa-twitter-square{
+    font-size: 32px;
+    color: black;
+}
+span.fa-envelope-square{
+    font-size: 32px;
+    color: #9A9A9A;
+}
+span.fa-phone-square{
+    font-size: 32px;
+    color: #8c8c8c;
 }
