@@ -90,6 +90,9 @@ body {
     margin: 5px auto;
 }
 
+.bold{
+    font-weight: bolder;
+}
 
 .two p {
     color: #888;
