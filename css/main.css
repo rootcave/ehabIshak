@@ -1,0 +1,351 @@
+/********************
+GENERAL
+*********************/
+a {
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: #aaa;
+}
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+.slide-up {
+	z-index: 1;
+}
+td{
+	
+	padding-bottom: 400px;
+}
+td.int{
+	padding-bottom:310px ;
+
+}
+li{
+	list-style: none;
+	padding: 10px 0;
+}
+ul{
+	padding: 0;
+}
+h5{
+	margin-top: 0;
+}
+.modal-row{
+	display: inline-block;
+	margin: 20px;
+}
+.modal-row > td {
+	padding: 5px 15px;
+}
+/************************
+Home: HEADER
+*************************/
+#brand-img{
+	height: 60px;
+	width: 90px;
+	margin-top: -7px;
+}
+.navbar{
+	border-bottom: 2px red solid;
+}
+/************************
+Home: content
+************************/
+#splash {
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.table-header{
+	color: white;
+	height: 15%;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(255,255,255,.3);
+	font-size: 2rem;
+	padding-top: 5%; 
+}
+
+
+.slide-them-up{
+	height: 92.2%;
+	margin:-31.1% 5% 0 0;
+	width: 15.7%;
+	-webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+    background: blue;
+    display: inline-block;
+    float: left;
+}
+
+#residential-interior-table{
+	color: white;
+	background-color: red;
+	position: absolute;
+	z-index: 2;
+}
+#residential-exterior-table{
+	position: absolute;
+	z-index: 2;
+	margin-left: 18.2%;
+	background-color: black;
+}
+#commercial-table{
+	position: absolute;
+	z-index: 2;
+	margin-left: 36.4%;
+}
+#urban-landscape-table{
+	margin-left: 54.6%;
+	position: absolute;
+	z-index: 2;
+}
+
+.pad-right{
+	padding-right: 10px;
+	border-right: 1px white solid;
+
+}
+.pad-left{
+	padding-left: 10px;
+}
+
+
+
+
+/*******************
+Modal
+*******************/
+.modal-item{
+	width: 100%;
+	margin-top: 0;
+	margin-right: 40px;
+	display: inline-block;
+	background-color: #aaa;
+}
+.modal-image{
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+.modal-piction{
+	float: left;
+	padding: 3px;
+	background-color: #aaa;
+}
+.modal-picton > p, .modal-picton > h5{
+	display: inline-block;
+	float: right;
+}
+.modal-box{
+margin: 0 10px;
+}
+.modal-row{
+	margin-top: 0;
+}
+/*.modal-box-left{
+	margin-right: 50px;
+}
+
+	*/
+/*******************
+Carousel
+*******************/
+#carousel-example-generic {
+  display: inline-block;
+}
+.carousel-control{
+	height: 80.1%;
+}
+
+.carousel-img {
+	width: 100%;
+	max-height:350px;
+}
+/*****************************/
+
+/* Plugin styles */
+.img-thumb{
+	float: left;
+	width: 50%;
+	height:50%;
+	max-height: 10%;
+}
+ul.thumbnails-carousel {
+	padding: 5px 0 0 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+}
+ul.thumbnails-carousel .center {
+	display: inline-block;
+}
+ul.thumbnails-carousel li {
+	margin-right: 0;
+    float: left;
+    cursor: pointer;
+    display: inline;
+    width: 33%;
+}
+.controls-background-reset {
+	background: none !important;
+}
+.active-thumbnail {
+	opacity: 0.4;
+}
+.indicators-fix {
+	bottom: 70px;
+}
+/*******************
+Footer
+********************/
+
+footer {
+	background: -webkit-linear-gradient(gray,white);
+	text-align: center;
+	width: 1024px;
+	margin: 0 auto;
+}
+.footer-links {
+	color: #337ab7;
+}
+
+
+
+/***********************
+Media Queries
+***********************/
+@media screen and (max-width:1024px){
+	.wrapper {
+		width: initial;
+		margin: initial;
+	}
+	footer {
+		width: 100%;
+	}
+	.slide-them-up{
+		height: 91%;
+	    margin: -39.4% 5% 0 0;
+	    width: 19.8%;
+	    -webkit-animation-duration: 1s;
+	    -webkit-animation-delay: 0s;
+	    background: blue;
+	    display: inline-block;
+	    float: left;
+	}
+
+	#residential-interior-table{
+		color: white;
+		background-color: red;
+		position: absolute;
+		z-index: 2;
+	}
+	#residential-exterior-table{
+		position: absolute;
+		z-index: 2;
+		margin-left: 22.9%;
+		background-color: black;
+	}
+	#commercial-table{
+		position: absolute;
+		z-index: 2;
+		margin-left: 45.8%;
+	}
+	#urban-landscape-table{
+		margin-left: 68.7%;
+		position: absolute;
+		z-index: 2;
+	}
+
+
+}
+
+@media screen and (max-width: 768px){
+	.slide-them-up{
+		height: 90%;
+		width: 85%;
+		-webkit-animation-duration: 1s;
+	    -webkit-animation-delay: 0s;
+	    background: blue;
+	    display: inline-block;
+	    float: left;
+	}
+	#residential-interior-table{
+		color: white;
+		background-color: red;
+		position: absolute;
+		z-index: 2;
+		margin: -45% 0 0;
+		
+	}
+	.popup-table{
+		margin: auto;
+	}
+	#residential-exterior-table{
+		position: absolute;
+		z-index: 2;
+		background-color: black;
+		margin: -45% 0 0;
+	}
+	#commercial-table{
+		position: absolute;
+		z-index: 2;
+		margin: -45% 0 0;
+	}
+	#urban-landscape-table{
+		position: absolute;
+		z-index: 2;
+		margin: -45% 0 0;
+	}
+}
+@media screen and (max-width: 480px){
+	.slide-them-up{
+		height: 70%;
+		width: 85%;
+		-webkit-animation-duration: 1s;
+	    -webkit-animation-delay: 0s;
+	    background: blue;
+	    display: inline-block;
+	    float: left;
+	}
+	#brand-img{
+		width: 60px;
+		height: 30px;
+	}
+	#residential-interior-table{
+		color: white;
+		background-color: red;
+		position: absolute;
+		z-index: 2;
+		margin: -45% -5% 0;
+		
+	}
+	.popup-table{
+		margin: auto;
+	}
+	#residential-exterior-table{
+		position: absolute;
+		z-index: 2;
+		background-color: black;
+		margin: -45% -5% 0;
+	}
+	#commercial-table{
+		position: absolute;
+		z-index: 2;
+		margin: -45% -5% 0;
+	}
+	#urban-landscape-table{
+		position: absolute;
+		z-index: 2;
+		margin: -45% -5% 0;
+	}
+}
+/***************
+Priorty
+****************/
+.no-display{
+	display: none !important;
+}
