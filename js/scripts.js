@@ -10,6 +10,7 @@ $(document).ready(function () {
         itemsDesktopSmall : [979, 3]
     });
 
+  
     //Trigger MixitUp
     $("#container").mixItUp();
 

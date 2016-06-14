@@ -18,8 +18,6 @@
     <!---- title ---->
     <title>Ehab Ishak Designs</title>
     <!---- title ---->
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/style.css">
 
     <!---- syles ---->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -33,16 +31,20 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css" >
+
 
 
 </head>
 <body>
 
     <!---- Header ---->
-    <section class="header" id="header">
+    <section class="wrapper header" id="header">
         <!-- startnavigation -->
         <nav class="navbar navbar-default">
-          <div class="container">
+          <div class="wrapper">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -59,7 +61,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                   <li><a href="about.html">About Us</a></li>
 
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -87,39 +89,20 @@
 -->
         <!-- slider -->
         <div class="slideSection">
-            <div class="container">
-                <div class="row" style="margin-top:35px;">
-                    <div id="wowslider-container1">
-                        <div class="ws_images"><ul>
-                            <li><img src="images/slider_imgs/slider_1.jpg" alt="slider_1" id="wows1_0"/></li>
-                            <li><img src="images/slider_imgs/slider_2.jpg" alt="slider_2" id="wows1_1"/></li>
-                            <li><img src="images/slider_imgs/slider_3.jpg" alt="slider_3" id="wows1_2"/></li>
-                            <li><img src="images/slider_imgs/slider_4.jpg" alt="slider_4" id="wows1_3"/></li>
-                        </ul></div>
-                        <div class="ws_bullets"><div>
-                            <a href="#" title="photo-1432249339392-2f754cb22105"><span>1</span></a>
-                            <a href="#" title="photo-1444201983204-c43cbd584d93"><span>2</span></a>
-                            <a href="#" title="thumb_202cbaa070f6603c1012fd11dcf6b80d"><span>3</span></a>
-                            <a href="#" title="thumb_c595d1a394acde1bfcba4d48b9c36dd1"><span>4</span></a>
-                        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.6</div>
-                        <div class="ws_shadow"></div>
-                    </div>
-                </div>
+            <div class="wrapper">
+                <iframe width="1020" height="480" src="https://www.youtube.com/embed/B1gujKKd4UM" frameborder="0" allowfullscreen></iframe>
             </div>
-        </div>
-
-
     </section>
     <!---- Header ---->
     <section class="two" id="two">
-        <div class="container">
+        <div class="wrapper">
             <div class="row someInfo">
                 <div class="col-md-7 left-side">
                     <h1 class=" text-center bold">
 <!--                        <img class="img-reponsive" src="images/logo.jpg">-->
                         Ehab Ishak Designs
                     </h1>
-                    
+
                     <div class="hidden-xs" id="owl-demo">
 
                       <div class="item"><img src="images/clients/bioFactor.jpg" alt="Owl Image"></div>
@@ -162,10 +145,10 @@
 
                 <div class="col-md-5 right-side">
                     <div class="col-xs-6">
-                       <div class="box" style="background: rgba(255, 0, 0, 0.67);">
+                       <div class="box" style="background: #ed1c24;">
                             <div class="desc" >
                                 <h5>
-                                    <a href="residential_interior.html" target="_blank">
+                                    <a  >
                                         Residential Interior
                                     </a>
 
@@ -180,7 +163,7 @@
                         <div class="box" style="background: black;">
                             <div class="desc" >
                                 <h5>
-                                    <a href="residential_exterior.html" target="_blank">
+                                    <a >
                                         Residential Exterior
                                     </a>
                                 </h5>
@@ -190,10 +173,10 @@
                     </div>
 
                     <div class="col-xs-6">
-                        <div class="box" style="background: gray;">
+                        <div class="box" style="background: #333333">
                             <div class="desc" >
                                 <h5>
-                                    <a href="commercial.html" target="_blank">
+                                    <a >
                                         Commercial
                                     </a>
 
@@ -205,10 +188,10 @@
                     </div>
 
                     <div class="col-xs-6">
-                        <div class="box" style="background: darkgray">
+                        <div class="box" style="background: #666666">
                             <div class="desc" >
                                 <h5>
-                                <a href="urban_landscape.html" target="_blank">
+                                <a >
                                     Urban & Landscape
                                 </a>
 
@@ -226,7 +209,7 @@
 
 
     <footer class="" id="footer">
-        <div class="container">
+        <div class="wrapper">
             <p class="text-center">
                 Copyright © 2016 <a href="http://www.rootcave.com" target="_blank">Root Cave</a>. All rights reserved.
             </p>

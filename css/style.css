@@ -6,7 +6,7 @@ body {
 
 
     font-weight: 400;
-    background: #fff;
+    background: #f8f8f9;
 }
 
 .header {
@@ -51,7 +51,7 @@ body {
 
 .navbar-brand>img {
     display: block;
-    max-width: 130px;
+    max-width: 118px;
 }
 
 .two {
@@ -153,8 +153,8 @@ body {
 .box a {
      color: #fff;
     font-size: 24px;
-    
-    
+
+
 }
 .desc {
     position: absolute;
@@ -169,7 +169,7 @@ body {
 }
 
 .desc h5 {
-   
+
     color: white;
 }
 
@@ -399,7 +399,7 @@ Social Media Icon
 *****************/
 span.fa-facebook-square{
     font-size: 40px;
-    color: #ee2525;
+    color: #ed1c24;
 }
 span.fa-twitter-square{
     font-size: 40px;
@@ -407,11 +407,11 @@ span.fa-twitter-square{
 }
 span.fa-envelope-square{
     font-size: 40px;
-    color: #676767;
+    color: #333333;
 }
 span.fa-phone-square{
     font-size: 40px;
-    color: #c4c4c4;
+    color: #666666;
 }
 .vision{
     margin-bottom: 10px;
