@@ -56,8 +56,8 @@ body {
 
 .two {
     padding: 60px 0;
-    background: #FFF;
     /*box-shadow: 0 0 50px;*/
+    color: white
 }
 
 .two .col-xs-6 {
@@ -65,8 +65,14 @@ body {
 }
 
 .two h1 {
-        color: #333333;
+        color: white;
     margin-top: 2px;
+    font-size: 3.4em;
+}
+.two p{
+    color: white;
+    font-size: 1.9em;
+
 }
 .left-side{
     position: absolute;
@@ -401,7 +407,7 @@ span.fa-facebook-square{
     font-size: 40px;
     color: #ed1c24;
 }
-span.fa-twitter-square{
+span.fa-instagram{
     font-size: 40px;
     color: black;
 }
