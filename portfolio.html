@@ -2,46 +2,73 @@
 <html>
 <head>
 	<title>Ehab Ishak | Designs</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+
+	<!---- syles ---->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!---- syles ---->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="css/style_slider.css"/>
+	<!-- End WOWSlider.com HEAD section -->
+
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!-- Custom Styles -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main.css" >
+
+
+
+
+
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-	<div class="wrapper container-fluid">
-		<header id="main-header">
+<body style="background:white;">
+
+	<!---- Header ---->
+	<section class="wrapper header" id="header">
+			<!-- startnavigation -->
 			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="index.html"><img id="brand-img" alt="Ehab Ishak logo" src="img/brand.jpg"></a>
-			    </div>
+				<div class="wrapper">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+							<a class="navbar-brand" href="#">
+									<img class="img-reponsive " src="images/logo.jpg">
+							</a>
+					</div>
 
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="index.html">Home</a></li>
-			        <li><a href="about.html">About us</a></li>
-			        <li class="active"><a href="portfolio.html">Portfolio</a></li>
-			        <li><a href="index.html#clients">Clients</a></li>
-			        <li><a href="contact-us.html">Contact us</a></li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li ><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
+
+							<li class="active"><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="index.html#owl-demo">Clients</a></li>
+							<li><a href="contact-us.html">Contact Us</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
 			</nav>
-		</header>
-		<!-- Content -->
-		<div class="container-fluid">
+			<!-- end-navigation -->
 
-			<img class="img-responsive" id="splash" src="img/splash.jpg">
+		<!-- Content -->
+		<div class="wrapper">
+
+			<div class="row">
+				<img class="img-responsive" id="splash" src="img/splash.jpg">
+			</div>
+			
 			<div class="container-fluid">
 				<div id="slides" class="container-fluid">
 				<!-- Slide them up! -->
@@ -87,15 +114,34 @@
 						</table>
 					</div>
 				</div>
-				<img id="residential-interior-img" class="slide-up col-md-3 col-lg-3 col-xs-6" src="img/residential-interior.jpg">
-				<img id="residential-exterior-img" class="slide-up col-md-3 col-lg-3 col-xs-6" src="img/residential-exterior.jpg">
-				<img id="commercial-img" class="slide-up col-md-3 col-lg-3 col-xs-6" src="img/commercial.jpg">
-				<img id="urban-landscape-img" class="slide-up col-md-3 col-lg-3 col-xs-6" src="img/urban&landscape.jpg">
+				<div class="row">
+					<div class="col-md-3 col-lg-3 col-xs-6">
+										<img id="residential-interior-img" class="slide-up img-responsive" src="img/residential-interior.jpg">
+
+					</div>
+										<div class="col-md-3 col-lg-3 col-xs-6">
+															<img id="residential-exterior-img" class="slide-up img-responsive" src="img/residential-exterior.jpg">
+
+										</div>
+					<div class="col-md-3 col-lg-3 col-xs-6">
+										<img id="commercial-img" class="slide-up img-responsive" src="img/commercial.jpg">
+
+					</div>
+
+<div class="col-md-3 col-lg-3 col-xs-6">
+					<img id="urban-landscape-img" class="slide-up img-responsive" src="img/urban&landscape.jpg">
+
+</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<footer id="footer">
-		<p>Copyright &copy; 2014-2016 <a class="footer-links" href="www.rootcave.com">Root Cave</a>. All rights reserved. <a class="footer-links" href="#">Privacy Policy</a></p>
+	<footer class="clear" id="footer">
+			<div class="wrapper">
+					<p class="text-center">
+							Copyright © 2016 <a href="http://www.rootcave.com" target="_blank">Root Cave</a>. All rights reserved.
+					</p>
+			</div>
 	</footer>
 
 	<!-- Buildings Modal starts here -->
@@ -755,4 +801,40 @@
 	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/portfolio.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="loader">
+		<div class='page-loader__container'>
+				<div class='page-loader'>
+						<div class='page-loader__inner'></div>
+				</div>
+		</div>
+</div>
+
+<!---- JavaScript Files ---->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/wowslider.js"></script>
+<script type="text/javascript" src="js/script_slider.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/scripts.js"></script>
+<!---- JavaScript Files ---->
+</body>
 </html>
