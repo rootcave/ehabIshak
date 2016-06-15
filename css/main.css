@@ -48,8 +48,14 @@ Home: HEADER
 	width: 90px;
 	margin-top: -7px;
 }
-.navbar{
-	border-bottom: 8px #747474 solid;
+.navbar::after{
+    content: "";
+    display: block;
+    width: 861px;
+    height: 7px;
+    background: #333333;
+    margin: auto;
+    margin: 1px 158px;
 }
 /************************
 Home: content
@@ -72,10 +78,16 @@ Home: content
 
 .slide-them-up{
 	height: 100%;
-	margin:-28% 0 0 -1%;
+	margin:-28% 0 0 -2%;
 	width: 20%;
 	-webkit-animation-duration: 1s;
     -webkit-animation-delay: 0s;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: 0s;
+	-o-animation-duration: 1s;
+	-o-animation-delay: 0s;
+	animation-duration: 1s;
+	animation-delay: 0s;
     background: blue;
     display: inline-block;
 }
@@ -89,16 +101,16 @@ Home: content
 #residential-exterior-table{
 	position: absolute;
 	z-index: 2;
-	margin-left: 18.2%;
+	margin-left: 16.2%;
 	background-color: black;
 }
 #commercial-table{
 	position: absolute;
 	z-index: 2;
-	margin-left: 39.4%;
+	margin-left: 34.4%;
 }
 #urban-landscape-table{
-	margin-left: 60.6%;
+	margin-left: 54.6%;
 	position: absolute;
 	z-index: 2;
 }

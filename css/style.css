@@ -89,7 +89,7 @@ body {
 .two h1:after {
     content: "";
     display: block;
-    width: 115px;
+    width: 252px;
     height: 1px;
     background: #4C4C4C;
     margin: auto;
